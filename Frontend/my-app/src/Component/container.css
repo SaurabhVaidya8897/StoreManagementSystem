@@ -1,0 +1,34 @@
+*
+{
+    box-sizing: border-box;
+}
+.container
+{
+    width:1200px;
+    margin:auto;
+    border:2px solid;
+}
+.row
+ {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+.col-3
+{
+    width: 25%;
+    border:1px solid;
+   
+
+}
+.col-4
+{
+    width: 33.3333%;
+    border: 1px solid;
+}
+.col-9
+{
+    width: 75%;
+    border: 1px solid;
+  
+}

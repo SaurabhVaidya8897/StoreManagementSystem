@@ -1,0 +1,42 @@
+.service-card {
+  /* margin-right: 10px !important; */
+  margin-left: 150px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  width: 350px !important;
+  height: 300px !important;
+  background-color: #e5b9b9;
+  color: black !important;
+}
+
+.service-link {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 50px !important;
+}
+
+.service-image {
+  width: 250px !important;
+  height: 200px !important;
+  border-radius: 10px;
+  margin-left: 50px !important;
+}
+
+.service-info {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.discount {
+  color: green;
+  font-weight: bold;
+}
+
+/* Ensure dots and arrows do not overlap */
+.slick-dots {
+  bottom: -25px; /* Adjust as needed */
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+}
